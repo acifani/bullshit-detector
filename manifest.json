@@ -1,0 +1,11 @@
+{
+  "name": "Bullshit Detector",
+  "description": "Detect bullshit",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {},
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
